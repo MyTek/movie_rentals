@@ -1,2 +1,5 @@
-/*
+framework/cache/*
+framework/sessions/*
+framework/views/*
 !/.gitignore
+!empty

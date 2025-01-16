@@ -16,10 +16,11 @@ This project is a simple Movie Rentals application that provides a backend API b
 ## Setup Instructions
 
 ### 1. Clone the Repository
-```bash
-git clone git@github.com:MyTek/movie_rentals.git
-cd movie_rentals
-```
+- Initial clone
+    ```bash
+    git clone git@github.com:MyTek/movie_rentals.git
+    cd movie_rentals
+    ```
 
 ### 2. Install Dependencies
 - Install PHP dependencies:
