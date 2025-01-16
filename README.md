@@ -31,14 +31,10 @@ cd movie_rentals
   npm install
   ```
 
-### 3. Set Up the Database
-- Run migrations to create the necessary tables:
+### 3. Initialize laravel for the first time
+- This creates files for caching and logs and other things
   ```bash
-  php artisan migrate
-  ```
-- Seed the database with sample data:
-  ```bash
-  php artisan db:seed
+  php artisan optimize
   ```
 
 ### 4. Set Up the Database
@@ -52,9 +48,13 @@ cd movie_rentals
   ```
 
 ### 5. Start the Development Servers
-- Initialize laravel for the first time:
+- Start the Laravel backend in one terminal:
   ```bash
-  php artisan optimize
+  php artisan serve --port=8550
+  ```
+- Start the Vite development server for the frontend IN ANOTHER TERMINAL:
+  ```bash
+  npm run dev
   ```
 
 ### 6. Access the Application
