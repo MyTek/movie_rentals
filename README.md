@@ -41,17 +41,23 @@ cd movie_rentals
   php artisan db:seed
   ```
 
-### 4. Start the Development Servers
-- Start the Laravel backend in one terminal:
+### 4. Set Up the Database
+- Run migrations to create the necessary tables:
   ```bash
-  php artisan serve --port=8550
+  php artisan migrate
   ```
-- Start the Vite development server for the frontend IN ANOTHER TERMINAL:
+- Seed the database with sample data:
   ```bash
-  npm run dev
+  php artisan db:seed
   ```
 
-### 5. Access the Application
+### 5. Start the Development Servers
+- Initialize laravel for the first time:
+  ```bash
+  php artisan optimize
+  ```
+
+### 6. Access the Application
 - Open your browser and navigate to:
   - **Frontend**: [http://localhost:8550](http://localhost:8550) (or the port shown by `npm run dev`)
   - **Backend API**: [http://localhost:8550/api](http://localhost:8550/api)
