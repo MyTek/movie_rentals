@@ -42,11 +42,11 @@ cd movie_rentals
   ```
 
 ### 4. Start the Development Servers
-- Start the Laravel backend:
+- Start the Laravel backend in one terminal:
   ```bash
   php artisan serve --port=8550
   ```
-- Start the Vite development server for the frontend:
+- Start the Vite development server for the frontend IN ANOTHER TERMINAL:
   ```bash
   npm run dev
   ```
