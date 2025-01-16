@@ -16,7 +16,8 @@ public_html/storage
 public_html/hot
 
 storage/*.key
-.env
+# Including this since its only an example
+# .env
 Homestead.yaml
 Homestead.json
 /.vagrant
@@ -28,3 +29,16 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+/.phpunit.cache
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
