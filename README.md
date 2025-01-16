@@ -75,6 +75,7 @@ cd movie_rentals
 ---
 
 ## Notes
+- This project has lots of extra files in it and currently the only working one is at root.
 - Make sure to update the `.env` file for your specific environment, such as database credentials.
 - For production deployment, ensure proper configurations for environment variables and use optimized commands:
   ```bash
