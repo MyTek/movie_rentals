@@ -67,7 +67,7 @@ This project is a simple Movie Rentals application that provides a backend API b
 
 ## Running Tests
 ### Backend Tests
-- Run the PHPUnit tests to ensure everything works as expected:
+- Open another terminal while the backend server is running and run the PHPUnit tests to ensure everything works as expected:
   ```bash
   php artisan test
   ```
